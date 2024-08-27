@@ -1,4 +1,4 @@
-import {Card, Section, Textarea} from "@ky-y./ui";
+import { Card, Section, Textarea } from "@ky-y./ui";
 import { FC, useEffect, useState } from "react";
 import useInterval from "use-interval";
 
