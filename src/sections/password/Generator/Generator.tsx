@@ -19,7 +19,6 @@ export const Generator: FC = () => {
     return (
         <Section inner="sm">
             <Card>
-
                 <div style={{
                     display: "flex",
                     alignItems: "center",
@@ -94,7 +93,8 @@ const copy = (password: string) => {
     }
     else {
         navigator.clipboard.writeText(password)
-            .then(() => {})
+            .then(() => {
+            })
             .catch(() => {
                 alert("クリップボードへの書き込み時にエラーが発生しました。\nAn error occurred during copying.");
             });

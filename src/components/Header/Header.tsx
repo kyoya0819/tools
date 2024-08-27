@@ -20,6 +20,12 @@ export const Header = () => {
             <Link href="/password">
                 Password Maker
             </Link>
+            <Link href="/character-counter">
+                Character Counter
+            </Link>
+            <Link href="/hex-mixer">
+                Hex Mixer
+            </Link>
         </HeaderC>
     );
 };
