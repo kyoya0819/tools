@@ -26,6 +26,9 @@ export const Header = () => {
             <Link href="/hex-mixer">
                 Hex Mixer
             </Link>
+            <Link href="/hex-steps-generator">
+                Hex Steps Generator
+            </Link>
         </HeaderC>
     );
 };

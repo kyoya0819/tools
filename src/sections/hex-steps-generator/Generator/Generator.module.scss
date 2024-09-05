@@ -1,0 +1,38 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .inputHex {
+        font-family: "Roboto Mono", monospace;
+
+        input {
+            width: 4rem;
+            text-align: center;
+        }
+    }
+
+    .inputSteps {
+        font-family: "Roboto Mono", monospace;
+
+        input {
+            width: 2rem;
+            text-align: center;
+        }
+    }
+
+    .wave {
+        padding: 0 0.75rem;
+    }
+}
+
+.result {
+    padding: 1.5rem 0;
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+
+    &.disable {
+        color: #999;
+        cursor: not-allowed;
+    }
+}
