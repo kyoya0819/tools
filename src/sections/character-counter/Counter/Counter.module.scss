@@ -28,16 +28,16 @@
         li {
             flex: 1;
 
-            @media screen and (max-width: 600px) {
+            @media screen and (width <= 600px) {
                 min-width: 50%;
 
-                &:nth-of-type(n+3) {
+                &:nth-of-type(n + 3) {
                     margin-top: 1rem;
                 }
             }
 
             .title {
-                font-size: .75rem;
+                font-size: 0.75rem;
             }
 
             .count {
@@ -47,7 +47,7 @@
         }
     }
 
-    @media screen and (min-width: 1000px) {
+    @media screen and (width >= 1000px) {
         display: flex;
         align-items: center;
 
