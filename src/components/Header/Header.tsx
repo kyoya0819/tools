@@ -2,7 +2,7 @@ import { A, Header as HeaderC } from "@ky-y./ui";
 import Link from "next/link";
 import React from "react";
 
-import logo from "assets/logo.webp";
+import logo from "./assets/logo.webp";
 
 export const Header = () => {
     
