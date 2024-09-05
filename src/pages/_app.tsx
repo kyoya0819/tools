@@ -1,3 +1,4 @@
+import { Root } from "@ky-y./ui";
 import type { AppProps } from "next/app";
 
 import "styles/app.scss";
@@ -6,7 +7,11 @@ import "styles/app.scss";
 import "@ky-y./ui/style.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
-    return <Component {...pageProps} />;
+    return (
+        <Root>
+            <Component {...pageProps} />
+        </Root>
+    );
 }
 
 export default MyApp;

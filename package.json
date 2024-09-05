@@ -12,7 +12,7 @@
         "stylelint:fix": "stylelint \"**/*.{css,scss,sass}\" --fix"
     },
     "dependencies": {
-        "@ky-y./ui": "^1.0.167",
+        "@ky-y./ui": "^1.0.207",
         "next": "^14.2.5",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",

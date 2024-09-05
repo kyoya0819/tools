@@ -1,4 +1,4 @@
-import { Button, Card, Range, Section, Textarea } from "@ky-y./ui";
+import { Button, Card, Range, Section, Textarea, toast } from "@ky-y./ui";
 import { Roboto_Mono } from "next/font/google";
 import { Dispatch, FC, SetStateAction, useEffect, useState } from "react";
 
@@ -88,15 +88,17 @@ const copy = (password: string) => {
         textarea.select();
         // noinspection JSDeprecatedSymbols
         document.execCommand("copy");
+        toast.success("Copy Success");
 
         document.body.removeChild(textarea);
     }
     else {
         navigator.clipboard.writeText(password)
             .then(() => {
+                toast.success("Copy Success");
             })
             .catch(() => {
-                alert("クリップボードへの書き込み時にエラーが発生しました。\nAn error occurred during copying.");
+                toast.error("Copy Failed");
             });
     }
 };
