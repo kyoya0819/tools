@@ -1,4 +1,5 @@
 import { Footer, Main } from "@ky-y./ui";
+// import "@ky-y./ui/fonts.css";
 import type { NextPage } from "next";
 import Head from "next/head";
 
