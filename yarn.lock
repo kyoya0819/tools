@@ -176,7 +176,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ky-y./kytools@workspace:."
   dependencies:
-    "@ky-y./ui": "npm:^1.0.208"
+    "@ky-y./ui": "npm:^1.0.209"
     "@types/node": "npm:^20.14.11"
     "@types/react": "npm:^18.3.3"
     "@types/uuid": "npm:^10.0.0"
@@ -205,9 +205,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ky-y./ui@npm:^1.0.208":
-  version: 1.0.208
-  resolution: "@ky-y./ui@npm:1.0.208"
+"@ky-y./ui@npm:^1.0.209":
+  version: 1.0.209
+  resolution: "@ky-y./ui@npm:1.0.209"
   dependencies:
     react: "npm:^18.3.1"
     react-icons: "npm:^5.2.1"
@@ -215,7 +215,7 @@ __metadata:
     shiki: "npm:^1.14.1"
     sonner: "npm:^1.5.0"
     uuid: "npm:^10.0.0"
-  checksum: 10c0/82ef083ebcfe87442b7ab471639ee99c0177f5474f6aebaa8d0843612c8339b8aacc52f4c5257db4c1472b2a0a2ec507884e9e256bc6d435466dbd84ae0c95a6
+  checksum: 10c0/0c973f8b28e4c9aec83723417414b1846c3b43ca4c3ca783867675825726543afa5411a46314a1a579b65fed05a8be3bbfaf2bf1312be11d40c811e6e800debb
   languageName: node
   linkType: hard
 
