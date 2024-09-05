@@ -1,9 +1,9 @@
 import { Footer, Main } from "@ky-y./ui";
 // import "@ky-y./ui/fonts.css";
 import type { NextPage } from "next";
-import Head from "next/head";
 
-import { Header } from "components/Header/Header";
+import { Head } from "components/Head";
+import { Header } from "components/Header";
 
 import { Generator } from "sections/hex-steps-generator";
 
@@ -11,9 +11,8 @@ const Password: NextPage = () => {
 
     return (
         <>
-            <Head>
-                <title>Hex Steps Generator | kyTools</title>
-            </Head>
+            <Head title="Hex Steps Generator | kyTools" />
+
             <Header />
             <Main>
                 <Generator />
